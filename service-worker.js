@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/iceagemovie/precache-manifest.edfd26b6e3a3c660e5ebd2daa49cf512.js"
+  "/iceagemovie/precache-manifest.bf261dadfe6125e8b3a133490ad1f88d.js"
 );
 
 workbox.clientsClaim();
