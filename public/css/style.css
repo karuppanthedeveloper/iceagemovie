@@ -1,0 +1,145 @@
+body{
+font-family: 'NTR', sans-serif;
+margin:0;
+padding:0;
+font-size:16px;
+line-height:20px;
+}
+.imgholder {
+  color:#fff;
+  position:relative;
+}
+.rightimg{
+	position: relative;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%,-2%);
+	    height: 550px;
+}
+.logcontainer{
+	 font-weight:bold !important;
+	margin-top:100px;
+	
+}
+.loginheader{
+       width: 20%;
+    margin: 45px 0 20px;
+}
+.fieldcontainer{
+	 font-weight:bold;
+}
+input[type="text"], input[type="password"]{
+	height:32px;
+	width:320px;
+	margin:6px 0;
+	border:0;
+	padding:2px 6px;
+	font-family: 'NTR';
+	  font-size: 16px;
+	  font-weight:bold;
+	  border: 1px solid #ddd;
+}
+.fluidcontainer button{
+	    width: 320px;
+    border: 0;
+    height: 36px;
+    background: #31baa6;
+    color: #fff;
+    font-size: 16px;
+	font-family: 'NTR';
+	margin-top:14px;
+	cursor:pointer;
+	font-weight:bold;
+	margin-bottom: 10px;
+}
+button:hover{
+	background:#000;
+	border:1px solid #31baa6;
+}
+.fplink{
+	margin-top:20px;
+}
+.singnintxt{
+	vertical-align: top;
+    font-size: 38px;
+    top: 50px;
+    position: relative;
+}
+a{
+	font-weight:bold;
+	color:#31baa6;
+	text-decoration:none;
+	cursor:pointer;
+}
+a:hover{
+	color:#000;
+	text-decoration:underline;
+}
+.footer{
+	font-family: 'NTR';
+    font-size: 14px;
+	font-weight:bold;
+    position: absolute;
+    bottom: 2px;
+    text-align: right;
+    right: 10px;
+	color:#000;
+}
+#forgotpassword, #newuser{
+	
+}
+.loader {
+	display:none;
+  border: 2px solid #efefef;
+  border-radius: 50%;
+  border-top: 2px solid #31baa6;
+  border-bottom: 2px solid black;
+  width: 62px;
+  height: 62px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position:absolute;
+  top:48%;
+  left:47.8%;
+  transform:translate(-50%,-50%);
+      z-index: 1;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.fluidcontainer a{
+	margin:10px 0px;
+}
+.linkholder{
+	width:320px;
+	text-align:center;
+	margin-bottom:20px;
+}
+.linkdiv{
+	width: 320px;
+    text-align: center;
+}
+.headertxt{
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	width:320px;
+}
+.error{
+   font-size: 14px;
+  color: #ff0000;
+}
+.invalid{
+    border: 1px solid #ff0000 !important;
+}
+.customwidth{
+	    width: 155px !important;
+    margin-right: 10px !important;
+}
